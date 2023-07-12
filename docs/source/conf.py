@@ -2,21 +2,22 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
-
-release = '0.1'
-version = '0.1.0'
+project = 'correctexam'
+copyright = '2023, Univ Rennes'
+author = 'Barais'
 
 # -- General configuration
 
 extensions = [
+    'myst_parser',
+    'sphinx_rtd_theme',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinx_design",
+
 ]
 
 intersphinx_mapping = {
@@ -24,6 +25,7 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
+myst_enable_extensions = ["colon_fence"]
 
 templates_path = ['_templates']
 
