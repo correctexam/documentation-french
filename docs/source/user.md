@@ -60,7 +60,7 @@ Il faut aussi des zones d'intérêt qui définissent les zones où l'étudiant v
 #### Comprendre les différents types de question
 
 
-Pour l'instant, il y a grosso modo quatre types de questions. 
+Pour l'instant, il y a grosso modo quatre types de question. 
 
 - Les questions dites directes. La notation **DIRECTE** (*Manuelle et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question en affectant une note à chaque étudiant pour cette question. 
 - Les questions dites positives. La notation **POSITIVE** (*manuelle et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
@@ -186,7 +186,7 @@ Pour corriger, nous associons chaque clé de réponse à un étudiant. Cette lis
 
 Non, il sera marqué comme ABI par défaut. 
 
-## Pouvez-vous expliquer les différents types de questions disponibles ?
+## Pouvez-vous expliquer les différents types de question disponibles ?
 
 Pour l'instant, il y a grosso modo quatre types de questions. 
 
@@ -195,7 +195,7 @@ Pour l'instant, il y a grosso modo quatre types de questions.
 - La notation **POSITIVE** (*manuelle et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
 - La notation **NEGATIVE** (*Manuel et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
 
-Ce type de questions sera enrichi à l'avenir. N'hésitez pas à nous faire part de vos bonnes idées.
+Ce type de question sera enrichi à l'avenir. N'hésitez pas à nous faire part de vos bonnes idées.
 
 ## Puis-je changer le type de question lorsque la correction d'une question a commencé ?
 
