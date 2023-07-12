@@ -7,7 +7,7 @@ Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?
 
 ## Comment créer un compte sur la plateforme ?
 
-Vous pouvez vous rendre sur la [plateforme] (https://correctexam.github.io/corrigeExamFront/), cliquer sur **s'inscrire**, remplir quelques informations. Vous recevrez un e-mail pour valider votre compte.
+Vous pouvez vous rendre sur la [plateforme](https://correctexam.github.io/corrigeExamFront/), cliquer sur **s'inscrire**, remplir quelques informations. Vous recevrez un e-mail pour valider votre compte.
 
 ![](Register.png)
 ![](Register1.png)
@@ -72,7 +72,7 @@ Honnêtement, ce n'est pas recommandé car non testé.
 
 ## Comment nettoyer le scan des élèves s'il manque des pages, s'il y a des doublons, s'il y a des pages retournées... ?
 
-Utilisez [pdfarranger] (https://github.com/pdfarranger/pdfarranger). C'est un excellent outil pour cette tâche.
+Utilisez [pdfarranger](https://github.com/pdfarranger/pdfarranger). C'est un excellent outil pour cette tâche.
 
 ## Puis-je recharger un scan propre (voir question précédente) et le réaligner si j'ai déjà commencé à corriger un examen ?
 
