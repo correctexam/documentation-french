@@ -31,8 +31,7 @@ Ce projet est encore dans une phase de développement active.
 :::
 
 
-Contents
---------
+## Contenu
 
 
 ```{toctree}

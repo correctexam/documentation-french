@@ -14,12 +14,12 @@ Sous linux et macos, vous pouvez juste télécharger le binaire pour votre os, r
 Sous windows, il sera nécessaire de télécharger l'exécutable mais aussi les deux fichiers *mydb...* correspondant à la base de données. Placer ces trois fichiers dans le même répertoire et lancer l'exécutable.  Aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
 
 :::{note}
-Les données du projet peuvent ensuite être exporté puis importé sur la plateforme en ligne, entres autres si vous souhaité testé l'envoi de mail aux étudiants.
+Les données du projet peuvent ensuite être exportées puis importées sur la plateforme en ligne, entres autres si vous souhaitez tester l'envoi de mails aux étudiants pour qu'ils consultent leur copies.
 :::
 
-### Puis je utiliserle serice d'authentification de l'Université ou de mon école
+### Puis-je utiliser le service d'authentification de l'Université ou de mon école
 
-La version actuelle supporte une authentifcation derrière un CAS. Quarkus est facilement configurable pour utiliser un autre système d'authentification unifiée type keycloak. 
+La version actuelle supporte une authentification derrière un CAS. Quarkus est facilement configurable pour utiliser un autre système d'authentification unifiée type keycloak.
 
 ### Puis-je tester une instance de cette application sur ma propre infrastructure (je veux garder mes données privées) ?
 

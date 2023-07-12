@@ -1,9 +1,10 @@
 (user1)=
-# Vidéo de démontrations
+# Documentation utilisateur
+
+## Vidéo de démontrations
 
 Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?v=bYTBlTg37RM&t)
 
-# Foire aux questions
 
 ## Comment créer un compte sur la plateforme ?
 
