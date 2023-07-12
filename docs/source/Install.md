@@ -7,15 +7,19 @@
 
 ### Puis je tester rapidement cette outil sur ma propre machine?
 
-Nous fournissons des releases packagé pour fonctionner sur les trois systèmes d'exploitation (windows, macos, linux) pour les architecture AMD64 muni d'une base de données intégré. 
+Nous fournissons des [releases packagés](https://github.com/correctexam/corrigeExamBack/releases) pour fonctionner sur les trois systèmes d'exploitation (windows, macos, linux) pour les architecture AMD64 muni d'une base de données intégré. 
 
 Sous linux et macos, vous pouvez juste télécharger le binaire pour votre os, rendre se binaire exécutable, lancer l'application et aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
 
-Sous windows, il sera nécessaire de télécharger l'exécutable mais aussi les deux fichiers mydb.. correspondant à la base de données. Placer ces trois fichiers dans le même répertoire et lancer l'exécutable.  Aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
+Sous windows, il sera nécessaire de télécharger l'exécutable mais aussi les deux fichiers *mydb...* correspondant à la base de données. Placer ces trois fichiers dans le même répertoire et lancer l'exécutable.  Aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
 
 :::{note}
 Les données du projet peuvent ensuite être exporté puis importé sur la plateforme en ligne, entres autres si vous souhaité testé l'envoi de mail aux étudiants.
 :::
+
+### Puis je utiliserle serice d'authentification de l'Université ou de mon école
+
+La version actuelle supporte une authentifcation derrière un CAS. Quarkus est facilement configurable pour utiliser un autre système d'authentification unifiée type keycloak. 
 
 ### Puis-je tester une instance de cette application sur ma propre infrastructure (je veux garder mes données privées) ?
 

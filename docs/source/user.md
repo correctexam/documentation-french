@@ -68,7 +68,7 @@ Ce type de questions sera enrichi à l'avenir. N'hésitez pas à nous faire part
 
 ## Puis-je changer le type de question lorsque la correction d'une question a commencé ?
 
-Honnêtement, ce n'est pas recommandé car non testé.
+Honnêtement, ce n'est pas recommandé car pas assez testé.
 
 ## Comment nettoyer le scan des élèves s'il manque des pages, s'il y a des doublons, s'il y a des pages retournées... ?
 
@@ -95,4 +95,25 @@ Bien sûr, le seul point important est un marqueur circulaire dans les coins pou
 ## Que faire lorsque je rencontre un bug dans l'application ?
 
 Utilisez le système de ticket github sur le projet https://github.com/correctexam/corrigeExamFront
+
+## Puis je installer sur mon ordinateur la solution pour éviter d'utiliser la version en ligne et corriger hors ligne (dans le train par example)
+
+
+Nous fournissons des [releases packagés](https://github.com/correctexam/corrigeExamBack/releases) pour fonctionner sur les trois systèmes d'exploitation (windows, macos, linux) pour les architecture AMD64 muni d'une base de données intégré. 
+
+Sous linux et macos, vous pouvez juste télécharger le binaire pour votre os, rendre se binaire exécutable, lancer l'application et aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
+
+Sous windows, il sera nécessaire de télécharger l'exécutable mais aussi les deux fichiers *mydb...* correspondant à la base de données. Placer ces trois fichiers dans le même répertoire et lancer l'exécutable.  Aller sur votre navigateur à l'adresse http://localhost:8080 (utilisateur par défaut user/user ou admin/admin).
+
+:::{note}
+Les données du projet peuvent ensuite être exporté puis importé sur la plateforme en ligne, entres autres si vous souhaité testé l'envoi de mail aux étudiants.
+:::
+
+## Puis je détruire mes données sur la plate-forme
+
+Oui à tout moment, nous vous conseillons de faire un backup (cours par cours) si vous souhaitez un jour réutliliser certaines données. Quand vous détruisez vos données, aucun backup n'est conservé donc nous ne pourrons restituer les données. 
+
+## Quelles garanties j'ai de ne pas perdre de données en cas de problème sur la plateforme 
+
+Pour le moment, la plateforme accessible en ligne https://correctexam.github.io/corrigeExamFront/ est proposé en mode *best effort* sur un serveur de l'Université de Rennes 1. Aucune garantie sur les donénes n'est fournie. Nous vous invitons à vous rapprocher du service informatique de votre établissement si vous souhaitez un meilleur niveau de garantie
 
