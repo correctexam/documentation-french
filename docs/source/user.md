@@ -8,7 +8,8 @@ Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?
 
 ## Les grandes étapes d'une correction d'examen
 
-Les grandes étapes d'une correction d'examens sont les suivantes
+Les grandes étapes d'une correction d'examens sont les suivantes:
+
 0. Créer un compte sur la plateforme ?
 1. Créer son cours et son examen (Cela comprend fabriquer l'énoncé de son examen à l'aide d'un traitement de texte (word, google doc, libreoffice) ou de latex ;) et charger la liste des étudiants qui peuvent composer
 2. Créer son barème de correction (la façon dont chaque question sera évaluée, ses commentaires types par question, ...)
