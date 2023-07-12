@@ -17,7 +17,6 @@ Les grandes étapes d'une correction d'examens sont les suivantes:
 8. Envoyer le retour aux étudiants
 9. Exporter les notes aux formats Excel pour une transmission à la scolarité
 
-## Vidéo de démontrations
 
 Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?v=bYTBlTg37RM&t)
 
