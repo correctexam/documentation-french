@@ -1,8 +1,6 @@
 # Bienvenue sur la page de documentation de correctExam
 
-:::note
 An [English 🇬🇧](https://correctexam.readthedocs.io/en/latest/) version is also avilable.
-:::
 
 [**CorrectExam**](https://correctexam.github.io/) est un outil d'aide à la correction de copies papier. 
 Son but premier est de permettre aux étudiants de recevoir plus rapidement des commentaires plus détaillés sur leur travail, et aux enseignants de voir des analyses détaillées des devoirs et des questions. Il s'agit d'un moyen simple d'enregistrer les travaux sous forme numérique afin de préserver le travail original et de permettre une visualisation rapide et facile depuis n'importe où.
