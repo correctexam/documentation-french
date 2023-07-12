@@ -1,12 +1,8 @@
 (user1)=
-# Documentation utilisateur
-
-## Vidéo de démontrations
-
-Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?v=bYTBlTg37RM&t)
+# Les grandes étapes d'une correction d'examen
 
 
-## Les grandes étapes d'une correction d'examen
+
 
 Les grandes étapes d'une correction d'examens sont les suivantes:
 
@@ -21,8 +17,12 @@ Les grandes étapes d'une correction d'examens sont les suivantes:
 8. Envoyer le retour aux étudiants
 9. Exporter les notes aux formats Excel pour une transmission à la scolarité
 
+## Vidéo de démontrations
 
-### Étape 0: Comment créer un compte sur la plateforme ?
+Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?v=bYTBlTg37RM&t)
+
+
+## Étape 0: Comment créer un compte sur la plateforme ?
 
 Vous pouvez vous rendre sur la [plateforme](https://correctexam.github.io/corrigeExamFront/), cliquer sur **s'inscrire**, remplir quelques informations. Vous recevrez un e-mail pour valider votre compte.
 
@@ -31,7 +31,7 @@ Vous pouvez vous rendre sur la [plateforme](https://correctexam.github.io/corrig
 
 Vous pouvez ensuite remplir les informations relatives à votre compte dans le menu. *Compte* -> *Réglages*
 
-### Étape 1: Créer son cours et son examen (Cela comprend fabriquer l'énoncé de son examen à l'aide d'un traitement de texte (word, google doc, libreoffice) ou de latex ;)
+## Étape 1: Créer son cours et son examen (Cela comprend fabriquer l'énoncé de son examen à l'aide d'un traitement de texte (word, google doc, libreoffice) ou de latex ;)
 
 
 Une fois authentifié, sur la page d'accueil, cliquez sur le symbole **+** *créer un cours*.
@@ -51,13 +51,13 @@ Pour Rennes, cette liste est accessible ici : https://mdw.univ-rennes1.fr/
 :::
 
 
-### Étape 2: Créer son barème de correction (la façon dont chaque question sera évaluée, ses commentaires types par question, ...)
+## Étape 2: Créer son barème de correction (la façon dont chaque question sera évaluée, ses commentaires types par question, ...)
 
 Pour créer son barème, une fois entré dans la page d'un module, puis de l'examen en question, vous avez accès à un bouton annoter template. C'est ici que vous définissez l'ensemble des zones d'intérêt mais aussi le barême de chaque question. 
 Il faut des zones d'intérêt avec le nom, le prénom et/ou le numéro étudiant. 
 Il faut aussi des zones d'intérêt qui définissent les zones où l'étudiant va répondre pour chacune des questions qui lui sont posées. 
 
-#### Comprendre les différents types de question
+### Comprendre les différents types de question
 
 
 Pour l'instant, il y a grosso modo quatre types de question. 
@@ -72,7 +72,7 @@ Pour l'instant, il y a grosso modo quatre types de question.
 Les commentaires associés à une question peuvent être définis ici ou en cours de correction dans la vue correction. 
 :::
  
-#### Fonctionnement du barême selon les types de question
+### Fonctionnement du barême selon les types de question
 
 Pour chaque question, il faudra définir le numéro de la question, le nombre de point total et une notion de *pas*. Le numéro de la question peut être le même pour plusieurs questions (si par exemple la zone de réponse est située sur deux pages distinctes). Le nombre de point correspond à la note maximale pour cette question. La notion de *pas* définit l'incrément possible par point. 
 
@@ -83,7 +83,7 @@ Pour chaque question, il faudra définir le numéro de la question, le nombre de
 - Par exemple, pour une réponse à une question de type **QCM**, il sera nécessaire de donner l'ensemble des réponses valides. Si la réponse de l'étudiant est valide il aura la note maximale a la question. Si la réponse n'est pas valide, il aura pour le moment la pénalité qui est définie au moment du barème comme - 1/10 ; - 1/8 ; - 1/6 ; ... ; -1/2 ; -1 ou 0 * la note maximale. Si l'étudiant a laissé vide, il aura 0 à la question. Donc si vous mettez le nombre de point à 2, la pénalité à 1/4. Si l'étudiant a bon il a 2 points, si il a faux il a -0,5, si il n'a pas répondu il a 0. 
 
 
-### Étape 3: Charger les scans des copies des examens correctement ordonnés
+## Étape 3: Charger les scans des copies des examens correctement ordonnés
 
 L'étape suivante est de charger les copies étudiantes dans l'application. Nous recommandons d'utiliser des niveaux de gris à 150 DPI pour que la taille du fichier reste raisonnable, mais il n'y a pas de problème pour un scan en couleur à 300 DPI si nécessaire. Évitez le noir et blanc pur qui pourrait nuire à l'algorithme qui reconnaît les noms/prénoms/identifiants (INE) des étudiants à l'étape suivante.
 
@@ -99,20 +99,20 @@ Agrafer les copies étudiantes avant que ces derniers ne composent. Demandez leu
 :::
 
 
-### Étape 4. Redresser ses scans
+## Étape 4. Redresser ses scans
 
 Il faut maintenant faire tourner le traitement qui aligne les images pour gommer les déformations liées au scan des copies. Si vous avez des marques (ronds noirs) aux quatre coins des copies, utilisez l'alignement avec marque, sinon sans marque ce sera plus long. Si vous n'avez pas de QCM et que votre scanner déforme peu les copies, vous pouvez aussi ne pas redresser les copies. 
 
 Vous pouvez demander à réaligner uniquement une partie des copies en sélectionnant les pages à réaligner. Cela permet de voir en particulier à partir de quel point il a fait son alignement. C'est parfois utile pour comprendre pourquoi l'alignement se passe mal. 
 
 
-### Étape 5: Associer chaque copie avec un étudiant (assistée à l'aide de l'IA)
+## Étape 5: Associer chaque copie avec un étudiant (assistée à l'aide de l'IA)
 
 L'étape suivante consiste à associer chaque copie avec un étudiant de la liste des étudiants. Il est possible de filtrer les étudiants déjà affecter à une copie. 
 
 À la fin de cette étape, si vous avez bien affecté l'ensemble des copies alors vous pouvez passer à la phase de correction. Sinon c'est probablement parcequ'une copie n'a pas encore été affectée. 
 
-### Étape 6: Corriger ses copies (question par question ou étudiant par étudiant ou tout autre combinaison)
+## Étape 6: Corriger ses copies (question par question ou étudiant par étudiant ou tout autre combinaison)
 
 On entre maintenant dans la phase de correction. Sur le même équipement ou sur un autre équipement (une tablette par exemple), vous pouvez corriger les copies (question par question ou étudiant par étudiant). Vous pouvez annoter l'image à l'aide d'un crayon, mettre des commentaires, mettre une note, corrigé automatiquement les QCMs, ...
 
@@ -123,11 +123,11 @@ Si vous corrigez sur ordinateur et pas sur tablette, il existe des raccourcis cl
 Lors de cette phase, il est intéressant de taguer les réponses dites excellentes et les mauvaises réponses remarquables. Cela permet de créer un corrigé automatiquement pour les étudiants et cela permet de discuter avec les étudiants plus tard ces mauvaises réponses remarquables de manières anonymes.
 
 
-### Étape 7: Regarder les statistiques associées à la réussite à l'examen pour potentiellement ajuster un peu le barème
+## Étape 7: Regarder les statistiques associées à la réussite à l'examen pour potentiellement ajuster un peu le barème
 
 En cours de correction ou à la fin de la correction, en passant par la vue **voir résultats**, il est possible de visualiser les statistiques associées à cet examen afin d'ajuster le barème en modifiant par exemple la valeur associé aux commentaires pour les notations **POSITIVE** ou **NEGATIVE** Pour la notation **DIRECTE**, il ne sera pas possible de modifier le barème après la correction et il sera donc nécessaire de repasser sur l'ensemble des copies si l'on souhaite changer le barème.
 
-### Étape 8: Envoyer le retour aux étudiants
+## Étape 8: Envoyer le retour aux étudiants
 
 Une fois la correction correcte,  en passant par la vue **voir résultats**, il est possible de communiquer les copies aux étudiants. Ces derniers récupéreront un lien unique pour consulter leur copie et pourront voir les réponses taguées excellentes de manière anonymes. Le mail d'envoi est paramétrable juste avant l'envoi. 
 
@@ -140,7 +140,7 @@ Si vous avez corrigé, les copies non pas sur l'instance en ligne, mais sur une 
 Cette étape de transmission aux étudiants n'est pas obligatoire. C'est la motivation première de l'outil, mais l'outil peut juste servir à évaluer sans chercher à faire un retour systématique aux étudiants. 
 :::
 
-### Étape 9: Export les notes aux formats Excel pour une transmission à la scolarité
+## Étape 9: Export les notes aux formats Excel pour une transmission à la scolarité
 
 Enfin, il est possible d'exporter les notes au format Excel pour les transmettre vers la scolarité. 
 
