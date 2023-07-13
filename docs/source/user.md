@@ -1,8 +1,5 @@
 (user1)=
-# Les grandes étapes d'une correction d'examen
-
-
-
+#  es grandes étapes d'une correction d'examen
 
 Les grandes étapes d'une correction d'examens sont les suivantes:
 
@@ -16,7 +13,6 @@ Les grandes étapes d'une correction d'examens sont les suivantes:
 7. Regarder les statistiques associés à la réussite à l'examen pour potentiellement ajuster un peu la barème
 8. Envoyer le retour aux étudiants
 9. Exporter les notes aux formats Excel pour une transmission à la scolarité
-
 
 Une vidéo de démonstration est accessible [ici](https://www.youtube.com/watch?v=bYTBlTg37RM&t)
 
@@ -218,7 +214,7 @@ Nous recommandons d'utiliser des niveaux de gris à 150 DPI pour que la taille d
 
 
 
-## Puis-je rédiger une déclaration avec un autre outil que word, excel ou latex ?
+## Puis-je rédiger un énoncé d'examen avec un autre outil que word, libreoffice ou latex ?
 
 Bien sûr, le seul point important est un marqueur circulaire dans les coins pour faciliter l'alignement et des carrés gris clair pour mettre les noms, prénoms et identifiants (INE) des étudiants. 
 
@@ -239,11 +235,11 @@ Sous windows, il sera nécessaire de télécharger l'exécutable mais aussi les 
 Les données du projet peuvent ensuite être exporté puis importé sur la plateforme en ligne, entres autres si vous souhaité testé l'envoi de mail aux étudiants.
 :::
 
-## Puis je détruire mes données sur la plate-forme
+## Puis je détruire mes données sur la plate-forme
 
 Oui à tout moment, nous vous conseillons de faire un backup (cours par cours) si vous souhaitez un jour réutliliser certaines données. Quand vous détruisez vos données, aucun backup n'est conservé donc nous ne pourrons restituer les données. 
 
-## Quelles garanties j'ai de ne pas perdre de données en cas de problème sur la plateforme 
+## Quelles garanties j'ai de ne pas perdre de données en cas de problème sur la plateforme 
 
 Pour le moment, la plateforme accessible en ligne https://correctexam.github.io/corrigeExamFront/ est proposé en mode *best effort* sur un serveur de l'Université de Rennes 1. Aucune garantie sur les donénes n'est fournie. Nous vous invitons à vous rapprocher du service informatique de votre établissement si vous souhaitez un meilleur niveau de garantie
 
