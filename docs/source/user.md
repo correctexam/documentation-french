@@ -1,5 +1,5 @@
 (user1)=
-#  es grandes étapes d'une correction d'examen
+# Les grandes étapes d'une correction d'examen
 
 Les grandes étapes d'une correction d'examens sont les suivantes:
 

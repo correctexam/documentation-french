@@ -33,8 +33,6 @@ Ce projet est encore dans une phase de développement active.
 :::
 
 
-## Contenu
-
 
 ```{toctree}
 :maxdepth: 2

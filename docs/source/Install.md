@@ -71,8 +71,6 @@ mvn -B package --file pom.xml -Pnative
 docker build -f src/main/docker/Dockerfile.native -t barais/correctexam-back:manifest-amd64 --build-arg ARCH=amd64/  .
 ```
 
-
-
 Le backend est également construit automatiquement en utilisant l'action github. Vous pouvez accéder à l'image du backend dans [docker hub](https://hub.docker.com/repository/docker/barais/grade-scope-istic)
 
 **OR** 
@@ -84,7 +82,6 @@ cd corrigeExamBack
 quarkus build --native --no-tests -Dquarkus.native.container-build=true  
 docker build -f src/main/docker/Dockerfile.native -t barais/correctexam-back:manifest-amd64 --build-arg ARCH=amd64/  .
 ```
-
 
 ####  Construire la partie Front
 
@@ -283,7 +280,7 @@ http {
 }
 ```
 
-### Ou déployer la base de données et le backend sur votre propre infrastructure et le frontend sur un CDN
+### Où déployer la base de données et le backend sur votre propre infrastructure et le frontend sur un CDN
 
 Si vous souhaitez déployer la base de données et l'infrastructure backend sur votre propre infrastructure et déployer le frontend sur le CDN. Vous devez gérer correctement les autorisations CORS au sein de votre CDN et de votre backend. Si vous utilisez la page publique de github, Pages autorise CORS (l'en-tête access-control-allow-origin est positionné à *). Pour le backend, vous pouvez utiliser les propriétés quarkus *-Dquarkus.http.cors=true -Dquarkus.http.cors.origins=https://correctexam.github.io -Dquarkus.http.cors.methods=GET,PUT,POST,DELETE,PATCH,OPTIONS* pour gérer vos cors. Veuillez mettre à jour le descripteur docker-compose en conséquence. 
 
@@ -317,7 +314,7 @@ services:
       - 3308:3306
 ```
 
-:::attention
+:::{attention}
 Avant de construire le frontend pour votre CDN, n'oubliez pas de mettre à jour **webpack/environment.js** avec vos noms de domaine.
 :::
 
@@ -334,7 +331,7 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p yes # This st
 docker run --rm -t arm64v8/ubuntu uname -m 
 ```
 
-###  Construire le projet
+### Construire le projet
 
 #### Construire le backend
 
@@ -397,7 +394,7 @@ docker build -f src/main/docker/Dockerfile.arm64 -t barais/correctexam-back:mani
 
 Clonez le dépôt du frontend. 
 
-:::attention
+:::{attention}
 ⚠️ mettre à jour webpack/environment.js avec votre nom de domaine.
 :::
 
