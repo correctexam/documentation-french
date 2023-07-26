@@ -48,7 +48,7 @@ Pour Rennes, cette liste est accessible ici : https://mdw.univ-rennes1.fr/
 
 ## Étape 2: Créer son barème de correction (la façon dont chaque question sera évaluée, ses commentaires types par question, ...)
 
-Pour créer son barème, une fois entré dans la page d'un module, puis de l'examen en question, vous avez accès à un bouton annoter template. C'est ici que vous définissez l'ensemble des zones d'intérêt mais aussi le barême de chaque question. 
+Pour créer son barème, une fois entré dans la page d'un module, puis de l'examen en question, vous avez accès à un bouton annoter template. C'est ici que vous définissez l'ensemble des zones d'intérêt mais aussi le barème de chaque question. 
 Il faut des zones d'intérêt avec le nom, le prénom et/ou le numéro étudiant. 
 Il faut aussi des zones d'intérêt qui définissent les zones où l'étudiant va répondre pour chacune des questions qui lui sont posées. 
 
@@ -67,7 +67,7 @@ Pour l'instant, il y a grosso modo quatre types de question.
 Les commentaires associés à une question peuvent être définis ici ou en cours de correction dans la vue correction. 
 :::
  
-### Fonctionnement du barême selon les types de question
+### Fonctionnement du barème selon les types de question
 
 Pour chaque question, il faudra définir le numéro de la question, le nombre de point total et une notion de *pas*. Le numéro de la question peut être le même pour plusieurs questions (si par exemple la zone de réponse est située sur deux pages distinctes). Le nombre de point correspond à la note maximale pour cette question. La notion de *pas* définit l'incrément possible par point. 
 
@@ -90,7 +90,7 @@ Utilisez [pdfarranger](https://github.com/pdfarranger/pdfarranger). C'est un exc
 
 
 :::{tip}
-Agrafer les copies étudiantes avant que ces derniers ne composent. Demandez leur de ne pas enlever les agrafes. Utiliser un massicot pour retirer les agrafs avant de scanner vos copies. 
+Agrafer les copies étudiantes avant que ces derniers ne composent. Demandez leur de ne pas enlever les agrafes. Utiliser un massicot pour retirer les agrafes avant de scanner vos copies. 
 :::
 
 
@@ -237,9 +237,9 @@ Les données du projet peuvent ensuite être exporté puis importé sur la plate
 
 ## Puis je détruire mes données sur la plate-forme
 
-Oui à tout moment, nous vous conseillons de faire un backup (cours par cours) si vous souhaitez un jour réutliliser certaines données. Quand vous détruisez vos données, aucun backup n'est conservé donc nous ne pourrons restituer les données. 
+Oui à tout moment, nous vous conseillons de faire un backup (cours par cours) si vous souhaitez un jour réutiliser certaines données. Quand vous détruisez vos données, aucun backup n'est conservé donc nous ne pourrons restituer les données. 
 
 ## Quelles garanties j'ai de ne pas perdre de données en cas de problème sur la plateforme 
 
-Pour le moment, la plateforme accessible en ligne https://correctexam.github.io/corrigeExamFront/ est proposé en mode *best effort* sur un serveur de l'Université de Rennes 1. Aucune garantie sur les donénes n'est fournie. Nous vous invitons à vous rapprocher du service informatique de votre établissement si vous souhaitez un meilleur niveau de garantie
+Pour le moment, la plateforme accessible en ligne https://correctexam.github.io/corrigeExamFront/ est proposé en mode *best effort* sur un serveur de l'Université de Rennes 1. Aucune garantie sur les données n'est fournie. Nous vous invitons à vous rapprocher du service informatique de votre établissement si vous souhaitez un meilleur niveau de garantie
 
