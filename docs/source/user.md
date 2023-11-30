@@ -103,7 +103,7 @@ Vous pouvez demander à réaligner uniquement une partie des copies en sélectio
 
 ## Étape 5: Associer chaque copie avec un étudiant (assistée à l'aide de l'IA)
 
-L'étape suivante consiste à associer chaque copie avec un étudiant de la liste des étudiants. Il est possible de filtrer les étudiants déjà affecter à une copie. 
+L'étape suivante consiste à associer chaque copie avec un étudiant de la liste des étudiants. Il est possible de filtrer les étudiant(e)s déjà affecté(e)s à une copie. 
 
 À la fin de cette étape, si vous avez bien affecté l'ensemble des copies alors vous pouvez passer à la phase de correction. Sinon c'est probablement parcequ'une copie n'a pas encore été affectée. 
 
