@@ -186,12 +186,13 @@ Non, il sera marqué comme ABI par défaut.
 
 ## Pouvez-vous expliquer les différents types de question disponibles ?
 
-Pour l'instant, il y a grosso modo quatre types de questions. 
+Pour l'instant, il y a grosso modo cinq types de questions. 
 
 - Les **QCM** pour lesquelles l'application fournit une aide à la notation. 
 - La notation **DIRECTE** (*Manuelle et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question. 
 - La notation **POSITIVE** (*manuelle et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
 - La notation **NEGATIVE** (*Manuel et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
+- La notation **HYBRIDE** (*Manuel et HYBRID*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points ou enlève des points à la réponse en question (on part du nombre d'un nombre de points par défaut définis par le correcteur en pourcentage de la note maximale pour cette question, et on ajoute ou substitut des points associés à des commentaires de manière absolue ou en relatif au regard de la note maximale à la question). Le nombre total de points obtenus ne peut être inférieur à zéro ni supérieur au nombre maximal de points pour cette question. Le gros avantage de ce type de question est qu'il permet facilement de mettre à jour le barème en cours de correction. C'est à terme le type de question qui devrait être par défaut.
 
 Ce type de question sera enrichi à l'avenir. N'hésitez pas à nous faire part de vos bonnes idées.
 
@@ -199,9 +200,17 @@ Ce type de question sera enrichi à l'avenir. N'hésitez pas à nous faire part 
 
 Honnêtement, ce n'est pas recommandé car pas assez testé.
 
+## Puis-je mettre à jour mon barème ?
+
+Cela dépend grandement du type de question. 
+- Pour les questions du type **DIRECT**. C'est déconseillé. Si vous changez le barème, il est nécessaire de repasser sur toutes les copies des étudiants pour cette question. 
+- Pour les questions de type **POSITIVE** et **NEGATIVE**, vous pouvez mettre à jour le barème associé aux commentaires, ajouter ou retirer des commentaires. Il est déconseillé de mettre à jour le nombre de points pour une question donnée. 
+- Pour les questions de type **QCM**, vous pouvez mettre à jour le nombre de points négatif à retirer sans relancer la correction automatique, si vous changez tout autre type d'information, il sera nécessaire de relancer la correction automatique pour cette question. 
+- **Pour les questions de type HYBRID, c'est fait pour. Toutes les modifications sont autorisées.**
+
 ## Comment nettoyer le scan des élèves s'il manque des pages, s'il y a des doublons, s'il y a des pages retournées... ?
 
-Utilisez [pdfarranger](https://github.com/pdfarranger/pdfarranger). C'est un excellent outil pour cette tâche.
+Utilisez [pdfarranger](https://github.com/pdfarranger/pdfarranger) ou [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF). Ce sont deux excellents outils pour cette tâche.
 
 ## Puis-je recharger un scan propre (voir question précédente) et le réaligner si j'ai déjà commencé à corriger un examen ?
 
@@ -209,7 +218,7 @@ Oui, pas de problème, si vous partagez la correction avec des collègues ou ave
 
 ## Que se passe-t-il si mon modèle a un nombre impair de pages (*e.g.* 3 pages) et que le scan des feuilles des étudiants est un multiple de 2 (*e.g.* 4 pages par étudiant) ?
 
-Pour l'instant, cela ne se gère pas correctement au moment de l'alignement. Il sera nécessaire de supprimer les pages blanches des scans des élèves au préalable avec des outils de manipulation de pdf comme [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) ou [pdfarranger](https://github.com/pdfarranger/pdfarranger).
+Pour l'instant, cela ne se gère pas correctement au moment de l'alignement. Il sera nécessaire de supprimer les pages blanches des scans des élèves au préalable avec des outils de manipulation de pdf comme [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) ou [pdfarranger](https://github.com/pdfarranger/pdfarranger) ou [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF).
 
 ## Comment puis-je numériser les feuilles des élèves ?
 
