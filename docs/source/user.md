@@ -57,10 +57,10 @@ Il faut aussi des zones d'intérêt qui définissent les zones où l'étudiant v
 
 Pour l'instant, il y a grosso modo quatre types de question. 
 
-- Les questions dites directes. La notation **DIRECTE** (*Manuelle et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question en affectant une note à chaque étudiant pour cette question. 
-- Les questions dites positives. La notation **POSITIVE** (*manuelle et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
-- Les questions dites négatives. La notation **NEGATIVE** (*Manuel et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
-- Les questions dites hybrides. La notation **HYBRIDE** (*Manuel et HYBRID*). C'est à terme la correction qui devrait devenir la correction par défaut, car elle unifie les différents modes de corrections. (Voir https://github.com/correctexam/corrigeExamFront/issues/427). L'idée est de définir une note maximale pour une question et une note par défaut. À partir de là, il est possible de définir des commentaires qui ajoutent ou retirent des points en valeur absolue ou en valeur relative (en pourcentage de la note maximale). En outre, il est possible de définir de 1 à 12 tranches pour chaque commentaire pour appliquer une partie du bonus ou du malus. La note finale une fois calculée, l'application de chacune des commentaires ne peut dépasser la note maximale pour la question ni descendre en dessous de zéro.
+- Les questions dites directes. La notation **DIRECTE** (*Manuelle/Manuscript et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question en affectant une note à chaque étudiant pour cette question. 
+- Les questions dites positives. La notation **POSITIVE** (*manuelle/Manuscript et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
+- Les questions dites négatives. La notation **NEGATIVE** (*Manuel/Manuscript et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
+- Les questions dites hybrides. La notation **HYBRIDE** (*Manuel/Manuscript et HYBRID*). C'est à terme la correction qui devrait devenir la correction par défaut, car elle unifie les différents modes de corrections. (Voir https://github.com/correctexam/corrigeExamFront/issues/427). L'idée est de définir une note maximale pour une question et une note par défaut. À partir de là, il est possible de définir des commentaires qui ajoutent ou retirent des points en valeur absolue ou en valeur relative (en pourcentage de la note maximale). En outre, il est possible de définir de 1 à 12 tranches pour chaque commentaire pour appliquer une partie du bonus ou du malus. La note finale une fois calculée, l'application de chacune des commentaires ne peut dépasser la note maximale pour la question ni descendre en dessous de zéro.
 
 - Les **QCM** pour lesquelles l'application fournit une aide à la notation. 
 
@@ -189,10 +189,11 @@ Non, il sera marqué comme ABI par défaut.
 Pour l'instant, il y a grosso modo cinq types de questions. 
 
 - Les **QCM** pour lesquelles l'application fournit une aide à la notation. 
-- La notation **DIRECTE** (*Manuelle et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question. 
-- La notation **POSITIVE** (*manuelle et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
-- La notation **NEGATIVE** (*Manuel et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
-- La notation **HYBRIDE** (*Manuel et HYBRID*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points ou enlève des points à la réponse en question (on part du nombre d'un nombre de points par défaut définis par le correcteur en pourcentage de la note maximale pour cette question, et on ajoute ou substitut des points associés à des commentaires de manière absolue ou en relatif au regard de la note maximale à la question). Le nombre total de points obtenus ne peut être inférieur à zéro ni supérieur au nombre maximal de points pour cette question. Le gros avantage de ce type de question est qu'il permet facilement de mettre à jour le barème en cours de correction. C'est à terme le type de question qui devrait être par défaut.
+- Les **MANUSCRIPT** pour lesquelles l'application fournit un mécanisme de reconnaissance d'écriture manuscrite permettant de regrouper les réponses en fonction du contenu textuel de la réponse pour évaluer par lot. 
+- La notation **DIRECTE** (*Manuelle/Manuscript et Directe*) pour laquelle l'enseignant note manuellement les réponses à cette question. 
+- La notation **POSITIVE** (*Manuelle/Manuscript et POSITIVE*). Il s'agit d'un élément pour lequel l'enseignant peut définir un ensemble de commentaires en cours de route qui donne des points aux réponses à cette question (on part de zéro). Le nombre total de points obtenus ne peut dépasser le nombre maximum de points associés à cette question.
+- La notation **NEGATIVE** (*Manuelle/Manuscript et NEGATIVE*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points à la réponse en question (on part du nombre de points maximum possible pour cette question). Le nombre total de points obtenus ne peut être inférieur à zéro.
+- La notation **HYBRIDE** (*Manuel/Manuscript et HYBRID*). Il s'agit d'un élément pour lequel le correcteur peut définir un ensemble de commentaires en cours de route qui enlève des points ou enlève des points à la réponse en question (on part du nombre d'un nombre de points par défaut définis par le correcteur en pourcentage de la note maximale pour cette question, et on ajoute ou substitut des points associés à des commentaires de manière absolue ou en relatif au regard de la note maximale à la question). Le nombre total de points obtenus ne peut être inférieur à zéro ni supérieur au nombre maximal de points pour cette question. Le gros avantage de ce type de question est qu'il permet facilement de mettre à jour le barème en cours de correction. C'est à terme le type de question qui devrait être par défaut.
 
 Ce type de question sera enrichi à l'avenir. N'hésitez pas à nous faire part de vos bonnes idées.
 
@@ -212,9 +213,18 @@ Cela dépend grandement du type de question.
 
 Utilisez [pdfarranger](https://github.com/pdfarranger/pdfarranger) ou [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF). Ce sont deux excellents outils pour cette tâche.
 
+Sinon, au sein de l'outil vous pouvez facilement inverser des pages, supprimer des pages, ou retourner des pages. 
+
 ## Puis-je recharger un scan propre (voir question précédente) et le réaligner si j'ai déjà commencé à corriger un examen ?
 
 Oui, pas de problème, si vous partagez la correction avec des collègues ou avec différents appareils, vous pouvez forcer le chargement et le téléchargement vers le serveur plus tard. 
+
+## J'ai des questions sous forme de QCM mais je trouve que la reconnaissance fonctionne moyennement, que puis je changer pour améliorer cela ? 
+
+Pour les QCMs, plusieurs facteurs peuvent influencer la qualité de la détection. Ainsi, il est préférable de
+
+1. Tout d'abord de ne sélectionner que la zone contenant les cases à cocher. (Une fois la correction terminée, vous pourrez agrandir cette zone)
+2. 
 
 ## Que se passe-t-il si mon modèle a un nombre impair de pages (*e.g.* 3 pages) et que le scan des feuilles des étudiants est un multiple de 2 (*e.g.* 4 pages par étudiant) ?
 

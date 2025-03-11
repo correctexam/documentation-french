@@ -10,7 +10,7 @@ Son but premier est de permettre aux étudiants de recevoir plus rapidement des 
 - Faire en sorte que les étudiants consultent les copies corrigées pour apprendre de leurs erreurs,
 - Corriger de manière plus juste
   - Offrir une vision statistique des résultats
-  - Permettre de modifier le barême à la volée
+  - Permettre de modifier le barème à la volée
 - Corriger de manière plus efficace
   - à plusieurs
   - question par question
@@ -24,9 +24,9 @@ Son but premier est de permettre aux étudiants de recevoir plus rapidement des 
 
 Cette documentation décrit: 
 
-- dans la section [utilisation](user1) une documentation utlisateur. 
+- dans la section [utilisation](user1) une documentation à destination des utilisateurs. 
 - dans la section [installation](installation) des éléments pour compiler, installer et configurer le projet
-- dans la section développement [dévelopement](developer1) des éléments d'architecture pour comprendre la structure du projet et voir comment contribuer
+- dans la section développement [développement](developer1) des éléments d'architecture pour comprendre la structure du projet et voir comment contribuer
 
 :::{note}
 Ce projet est encore dans une phase de développement active. 
